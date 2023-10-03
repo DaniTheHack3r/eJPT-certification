@@ -4,4 +4,4 @@ The idea of using these leaked password databases is to find leaked passwords re
 
 One of the most popular sites to find leaked emails or numbers is https://haveibeenpwned.com. The main use for a penetration tester is when finding email addresses using tools like theHarvesters, we can use have I been pwned to get some information from those email addresses as well.
 
-Note: getting passwords is not illegal if they are publicly available, using those passwords and targeting real people could get you into serious problems with law.
+**Note**: getting passwords is not illegal if they are publicly available, using those passwords and targeting real people could get you into serious problems with law.

@@ -8,4 +8,4 @@ It also integrates subbrute to increase the possibility of finding more subdomai
 
 Sublist3r can fetch information from different sources, and it could get information from subdomains that were available and now they are not, or even subdomains that are not public anymore.
 
-Note: it might not work sometimes, because some sources could be blocking your requests as they sometimes setup a request limit.
+**Note**: it might not work sometimes, because some sources could be blocking your requests as they sometimes setup a request limit.

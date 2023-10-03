@@ -4,4 +4,4 @@ Wafw00f is a web application firewall figerprinting tool (https://github.com/Ena
 
 This is necessary for certain point of view because you need to be know what you are dealing with, it will help you strategize your next step when performing penetration testing.
 
-Note: Sometimes web pages are not behind a firewall and wafw00f will suggest that. However, the only way to be 100% sure is to perform port scanning y the exposed ip address.
+**Note**: Sometimes web pages are not behind a firewall and wafw00f will suggest that. However, the only way to be 100% sure is to perform port scanning y the exposed ip address.
