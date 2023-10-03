@@ -28,8 +28,8 @@
 ## Profile information about the site using built with technology profilers
 
 - Use technology profilers like builtwith to see what's running on the website.
-- There are several options: Wappalyzer and Builtwith browser extensions and whatweb utility (terminal).
+- There are several options: Wappalyzer (https://www.wappalyzer.com/) and Builtwith (https://builtwith.com/) browser extensions and whatweb utility (terminal).
 
 ## Download the full page
 
-- With httrack you can download full pages to your computer.
+- With httrack (https://www.httrack.com/) you can download full pages to your computer.
