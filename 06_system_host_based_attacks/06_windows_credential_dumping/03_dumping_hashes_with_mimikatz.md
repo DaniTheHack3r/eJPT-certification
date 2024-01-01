@@ -40,7 +40,7 @@
 
 **Note**: We can also use the command `password_change` to change the password of an account, however, it is not recommended in a production environment for obvious reasons.
 
-**Note**: Sometimes hashes are really important for one reason, and it is that most of the time we cannot really crack the hashes, fortunately, we can still use the hashes to authenticate.
+**Note**: Sometimes hashes are really important for one reason, and it is that most of the time we cannot really crack the hashes, fortunately, we can still use the hashes to authenticate in a active directory or windows environment.
 
 ### Mimikatz Standalone
 
@@ -57,3 +57,9 @@
 - If the system is configured to store logon passwords in clear text, mimikatz can show you those passwords if you run `sekurlsa::logonpasswords`.
 
 **Note**: if the logon passwords are not stored as plain text in memory, they will be presented as `(null)` in the password field of the sam database dump.
+
+Flags:
+
+Administrator User NTLM Hash: e3c61a68f1b89ee6c8ba9507378dc88d
+Student User NTLM Hash: bd4ca1fbe028f3c5066467a7f6a73b0b
+Syskey: 377af0de68bdc918d22c57a263d38326
