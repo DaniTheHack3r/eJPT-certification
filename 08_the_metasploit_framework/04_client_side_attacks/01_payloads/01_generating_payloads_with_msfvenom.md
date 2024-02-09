@@ -44,8 +44,12 @@ For this technical demonstration we won't need a lab environment. We can follow 
 
 **Note**: When crafting linux binary payloads, they don't need extension at all as they could be executed right away.
 
+### Transfering Payload to the target
+
 - To transfer the malicious payloads to the target machine, in this case we will start with windows. We need to have a windows 7 machine in the same network as our kali machine. We are going to setup a simple http web server and try to download the payloads to the windows machine from a web browser. Once we setup the web server, we are going to set up the listener using the msfconsole module `multihandler`. We only need to run `use multi/handler` inside the msfconsole and change the payload to the payload we crafted using msfvenom. And we also need to configure the LHOST and LPORT we configured in the payload with msfvenom.
 
 **Note**: When using meterpreter payloads, we need to use the multihandler module to properly handle the connection. Simpler handlers like netcat could not work properly.
 
 - From the windows target machine, enter the browser and download the payloads. Execute them and then you should see something happening on your kali machine, it should open a meterpreter session on the multihandler.
+
+- For linux, we can do exactly the same, or even execute it from kali to test it out. It will connect to the multihandler and establish the meterpreter session.
