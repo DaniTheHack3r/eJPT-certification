@@ -20,7 +20,7 @@ For this technical demonstration we won't need a lab environment. We can follow 
 
 **Note**: It is importance to notice that the real functionality of the executable is not kept, we replaced it with the payload. This doesn't happen with the information of the file, it will keep the file description and company name.
 
-**Note**: After gaining initial access in windows, it is recommended to run the post exploitation module called `post/windows/manage/migrate`.
+**Note**: After gaining initial access in windows, it is recommended to `run` the post exploitation module `post/windows/manage/migrate`.
 
 ### Keeping original functionality of the executable
 
