@@ -18,4 +18,7 @@ root:password
 admin:admin1
 admin:password1
 root:password
+Administrator:"" (note an empty string)
 ```
+
+**Note**: Take into consideration that when the login is empty, hydra throws only the login user without password attached to it.
