@@ -7,3 +7,15 @@
 - Local enumeration of the process running on a certain port on a linux machine will require a bit of expertise. Best options are to run `netstat -ano` and `ss -tl` or `ss -tln`. `ps aux` will help you enumerate other processes as well.
 
 **Note**: SQL always needs ; at the of queries.
+
+- Consider always looking for default passwords and users for a certain technology. They could be left as is after installation. If you are still unsure, try the following:
+
+```
+admin:password
+admin:admin
+root:root
+root:password
+admin:admin1
+admin:password1
+root:password
+```
