@@ -26,3 +26,9 @@ Administrator:"" (note an empty string)
 **Note**: Take into consideration that when the login is empty, hydra throws only the login user without password attached to it.
 
 - There is something important to take into consideration when trying to use mssqlclient.py (example command ahead) `python3 mssqlclient.py -port 1433 ARCHETYPE/sql_svc@10.129.135.110 -windows-auth`, when we want to use windows authentication, domain name and user name can be usually found as `ARCHETYPE\sql_svc`, but when using the impacket classes we need to use forward slash `ARCHETYPE/sql_svc` as impacket loves their forward slashes even on windows where domain names and usernames are always normally separated by a backslash. This applies for every tool on impacket.
+
+- We can use burp suite in order to spider a website. It won't really brute force the website, it will crawl every page you browse to and extract any information it can use to recreate a site map of the website.
+
+**Note**: Burp suite works as a proxy that listens on your localhost on port 8080.
+
+- We could try to bruteforce the ids and roles of a specific user. However, that requires too much time and effort. We can always try to start by performing a simple enumeration of queries, ids, requests sent, etc.
