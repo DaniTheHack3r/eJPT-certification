@@ -4,7 +4,7 @@ Weak password and misconfigurations are pretty common, it is something that repe
 
 1. Find the password of user “student” using hydra.
 
-To run hydra against ssh we just need to use `hydra <username> -P /path/to/wordlist x.x.x.x <protocol-name>`. The password for the user student is: friend.
+To run hydra against ssh we just need to use `hydra -l <username> -P /path/to/wordlist x.x.x.x <protocol-name>`. The password for the user student is: friend.
 
 2. Find the password of user “administrator” use appropriate Nmap scripts with password dictionary: /usr/share/nmap/nselib/data/passwords.lst
 
