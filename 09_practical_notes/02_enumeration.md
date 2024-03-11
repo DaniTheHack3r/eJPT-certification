@@ -32,3 +32,5 @@ Administrator:"" (note an empty string)
 **Note**: Burp suite works as a proxy that listens on your localhost on port 8080.
 
 - We could try to bruteforce the ids and roles of a specific user. However, that requires too much time and effort. We can always try to start by performing a simple enumeration of queries, ids, requests sent, etc.
+
+- We can speed up the scan using the command: `export ports=$(nmap -p- --min-rate=1000 -T4 $TARGET_IP | grep ^[0-9] | cut -d '/' -f 1 | tr '\n' ',' | sed s/,$//)` which will give you only the ports in the format `x,y,z` which can be passed as argument for a more complex scan: `nmap -sC -sV -p$ports $target_ip`.
