@@ -19,7 +19,6 @@ root:root
 root:password
 admin:admin1
 admin:password1
-root:password
 Administrator:"" (note an empty string)
 ```
 
