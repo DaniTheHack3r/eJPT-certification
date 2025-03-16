@@ -15,6 +15,11 @@ There are a good amount of operators that can be used when searching in google t
 
 - `cache:<site-domain>` => shows a google web cache page with the specified domain. Alternatively we could use the waybackmachine portal to perform this sort of look up.
 
+- `site:redacted[.]com intext:user -robots -readme ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:ini`
+
+- `site:*[.]target[.]com ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup`
+
+
 ## Other examples
 
 - You could inurl to find the file that stores passwords like this: inurl/intitle:auth_user_file.txt or inurl/intitle:passwd.txt.
